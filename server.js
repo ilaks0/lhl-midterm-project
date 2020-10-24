@@ -15,7 +15,12 @@ const cookieSession = require("cookie-session");
 // PG database client/connection setup
 const { Pool } = require('pg');
 const dbParams = require('./lib/db.js');
-const db = new Pool(dbParams);
+const db = new Pool({
+  host: '34.86.164.191',
+  user: 'postgres',
+  password: 'labber',
+  database: 'midterm'
+});
 db.connect();
 
 // Load the logger first so all (static) HTTP requests are logged to STDOUT
