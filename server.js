@@ -16,11 +16,10 @@ const cookieSession = require("cookie-session");
 const { Pool } = require('pg');
 const dbParams = require('./lib/db.js');
 const db = new Pool({
-  host: '34.86.164.191',
+  host: 'ian-maps-292720:us-east4:mapp-aids',
   user: 'postgres',
   password: 'labber',
-  database: 'midterm',
-  port: 5432
+  database: 'midterm'
 });
 db.connect();
 
