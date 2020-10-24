@@ -16,7 +16,7 @@ const cookieSession = require("cookie-session");
 const { Pool } = require('pg');
 const dbParams = require('./lib/db.js');
 const db = new Pool({
-  host: 'ian-maps-292720:us-east4:mapp-aids',
+  host: '35.245.23.218',
   user: 'postgres',
   password: 'labber',
   database: 'midterm',
