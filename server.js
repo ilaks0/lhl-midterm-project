@@ -19,7 +19,8 @@ const db = new Pool({
   host: '34.86.164.191',
   user: 'postgres',
   password: 'labber',
-  database: 'midterm'
+  database: 'midterm',
+  port: 5432
 });
 db.connect();
 
