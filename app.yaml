@@ -1,0 +1,7 @@
+runtime: nodejs10
+
+env_variables:
+  CLOUD_SQL_USERNAME: postgres
+  CLOUD_SQL_PASSWORD: labber
+  CLOUD_SQL_DATABASE_NAME: midterm
+  CLOUD_SQL_CONNECTION_NAME: ian-maps-292720:us-east4:mapp-aids
