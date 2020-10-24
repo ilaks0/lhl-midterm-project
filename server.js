@@ -19,7 +19,8 @@ const db = new Pool({
   host: 'ian-maps-292720:us-east4:mapp-aids',
   user: 'postgres',
   password: 'labber',
-  database: 'midterm'
+  database: 'midterm',
+  port: 5432
 });
 db.connect();
 
